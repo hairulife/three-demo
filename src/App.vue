@@ -82,7 +82,7 @@ new THREE.TextureLoader().load(
 
 // 加载模型文件
 for (var i = 0; i < 26; i++) {
-  let url = `/models/${i + 1}.glb`
+  let url = `./models/${i + 1}.glb`
   new GLTFLoader().load(
     // 资源URL
     url,
